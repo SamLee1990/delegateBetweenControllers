@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		04BA6A89250E11C000459ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6A88250E11C000459ABD /* AppDelegate.swift */; };
 		04BA6A8B250E11C000459ABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6A8A250E11C000459ABD /* SceneDelegate.swift */; };
-		04BA6A8D250E11C000459ABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6A8C250E11C000459ABD /* ViewController.swift */; };
 		04BA6A90250E11C000459ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA6A8E250E11C000459ABD /* Main.storyboard */; };
 		04BA6A92250E11C100459ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BA6A91250E11C100459ABD /* Assets.xcassets */; };
 		04BA6A95250E11C100459ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA6A93250E11C100459ABD /* LaunchScreen.storyboard */; };
+		04BA6A9D250E129200459ABD /* DisplayBrightnessTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6A9C250E129200459ABD /* DisplayBrightnessTableViewController.swift */; };
+		04BA6A9F250E12FD00459ABD /* AutoLockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6A9E250E12FD00459ABD /* AutoLockTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04BA6A85250E11C000459ABD /* delegateBetweenControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegateBetweenControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BA6A88250E11C000459ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BA6A8A250E11C000459ABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04BA6A8C250E11C000459ABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04BA6A8F250E11C000459ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BA6A91250E11C100459ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BA6A94250E11C100459ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BA6A96250E11C100459ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BA6A9C250E129200459ABD /* DisplayBrightnessTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayBrightnessTableViewController.swift; sourceTree = "<group>"; };
+		04BA6A9E250E12FD00459ABD /* AutoLockTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLockTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				04BA6A88250E11C000459ABD /* AppDelegate.swift */,
 				04BA6A8A250E11C000459ABD /* SceneDelegate.swift */,
-				04BA6A8C250E11C000459ABD /* ViewController.swift */,
 				04BA6A8E250E11C000459ABD /* Main.storyboard */,
+				04BA6A9C250E129200459ABD /* DisplayBrightnessTableViewController.swift */,
+				04BA6A9E250E12FD00459ABD /* AutoLockTableViewController.swift */,
 				04BA6A91250E11C100459ABD /* Assets.xcassets */,
 				04BA6A93250E11C100459ABD /* LaunchScreen.storyboard */,
 				04BA6A96250E11C100459ABD /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BA6A8D250E11C000459ABD /* ViewController.swift in Sources */,
 				04BA6A89250E11C000459ABD /* AppDelegate.swift in Sources */,
+				04BA6A9D250E129200459ABD /* DisplayBrightnessTableViewController.swift in Sources */,
 				04BA6A8B250E11C000459ABD /* SceneDelegate.swift in Sources */,
+				04BA6A9F250E12FD00459ABD /* AutoLockTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
